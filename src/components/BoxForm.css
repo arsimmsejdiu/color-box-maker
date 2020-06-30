@@ -1,0 +1,71 @@
+.BoxForm {
+  margin-top: 30px;
+  margin-left: 90px;
+  margin-bottom: 100px;
+}
+
+.BoxForm button {
+  width: 200px;
+  height: 40px;
+  margin-left: 60px;
+  margin-top: 50px;
+  align-items: center;
+  border: none;
+  border-radius: 12px;
+  background-color: lightgreen;
+  font-size: 20px;
+  transition: all ease-in-out 0.3s;
+  cursor: pointer;
+}
+
+.BoxForm button:hover {
+  background-color: white;
+  border: 2px solid lightgreen;
+  color: lightgreen;
+  transform: scaleX(20deg);
+}
+
+.BoxForm .form{
+  padding: 20px;
+}
+
+.BoxForm .h3 {
+  width: 600px;
+  height: 40px;
+  margin-left: -140px;
+  transition: all ease 0.4s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.BoxForm .h3:hover {
+  background-color: lightgoldenrodyellow;
+  border-radius: 20px;
+}
+
+.BoxForm label {
+  padding: 10px;
+  font-size: 1.1em;
+  font-weight: 500;
+  color: lightslategray;
+  transition: all ease 0.4s;
+}
+
+.BoxForm label:hover {
+  transform: scale(1.1);
+  border-radius: 5px;
+}
+
+.BoxForm input {
+  width: 200px;
+  height: 40px;
+  border: none;
+  background-color: lightseagreen;
+  border-radius: 15px;
+  transition: all ease 0.4s;
+}
+
+.BoxForm input:hover {
+  transform: scale(1.1);
+}

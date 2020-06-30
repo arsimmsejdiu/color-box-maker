@@ -1,0 +1,34 @@
+.Box{
+  margin-top: 40px;
+}
+
+.Box button {
+  width: 200px;
+  height: 40px;
+  margin-left: 150px;
+  margin-top: 50px;
+  align-items: center;
+  border: none;
+  border-radius: 12px;
+  background-color: lightcoral;
+  font-size: 20px;
+  transition: all ease-in-out 0.3s;
+  cursor: pointer;
+}
+
+.Box button:hover {
+  background-color: white;
+  border: 2px solid lightcoral;
+  color: lightcoral;
+  transform: scaleX(20deg);
+}
+
+.Box .box {
+  margin: 0 180px;
+  transition: all ease 0.4s;
+}
+
+.Box .box:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+}
